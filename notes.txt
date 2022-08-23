@@ -1,0 +1,237 @@
+**** Everything in python is Object ******
+**** Every object contains methods *****
+number
+-------
+number can be integer or decimal or octal or hexa
+
+aval = 10
+bval = 3.43
+
+
+string
+------
+string is defined in single quotes or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell"
+cname = """java programming"""
+
+
+
+
+list
+-----
+list contains set of elements,
+Elements can be set of numbers or strings or any combination.
+List elements are defined in []
+
+alist = [10,20,30,40]
+blist = ["java","unix"]
+clist = [23,43.43,"java"]
+
+
+tuple(immutable , read only )
+-----------------
+tuple contains set of elements,
+Elements can be set of numbers or strings or any combination.
+tuple elements are defined in ()
+**** Elements inside tuple cannot be modified directly ****
+
+
+dictionary
+------------
+dictionary contains elements in keys and values.
+keys are identity the value which are numbers and strings.
+values can be integer or string or list or tuple or dictionary or complex 
+    							data structure.
+
+syntax:   object = {key:value , key:value , key:value}
+example:    book = {"chap1":10 ,"chap2":20 ,"chap3":30}
+            info  = {1:2,3:4,5:6}
+
+	    book = {"chap1":[10,"rita","US"] ,"chap2":[20,"Ram","US"]}
+
+
+set
+---
+set is UNORDERED collection of UNIQUE values of the same type,.
+
+aset = {10,10,10,20,30,30}
+
+
+
+
+
+operators
+-------------
+
+arithemtic operators : + - * % /
+
+relational operators :  < <= > >=  == !=
+
+logical operators
+--------------------
+and
+or
+not
+
+name = "python"
+if name.islower()   and len(name) ==6 :
+    # do something
+
+assignment operators(++ and -- are not allowed in python )
+----------------------
+val = 10
+val+=1    (or)  val = val + 1  
+val-=1     (o)  val = val -1
+
+
+special operators
+----------------
++
+*
+in
+as
+
+file handling
+----------------
+
+- working with flat files ( log csv tsv dat conf .properties )
+----------------------------
+
+
+read mode
+write mode
+append mode
+
+
+opening the file
+------------------
+syntax:    object = open(filename,mode )
+example:    fobj  = open("customers.txt","r")
+            case1: We can only read the file if the file is existing
+            
+            fobj  = open("customers.txt","w")
+            case1 : If the file is already existing.. it overwrites the existing content
+            case2:  If the file is not existing.... file gets created first in current working directly
+
+
+            fobj  = open("customers.txt","a")
+            case1 : If the file is already existing.. it appends the new data to the end of the file
+            case2:  If the file is not existing.... file gets created first in current working directly
+
+closing the file
+----------------
+fobj.close()
+
+
+reading the file
+---------------
+
+
+- reading the file line by line using file object
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+
+exception handling
+-------------
+
+syntax error
+
+semantic error or runtime error
+
+
+Handling the errors during the runtime is known as exception handling.
+
+
+try
+except
+else
+finally
+raise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
